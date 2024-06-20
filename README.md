@@ -62,6 +62,7 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 - Make your changes and commit them: git commit -m 'Add some feature.
 - Push to the branch: git push origin feature/YourFeature 
 - Open a pull request.
+- Wait for response or Merge.
 ## Usage
 - Visit http://localhost:3000 in your browser to view the website locally.
 - Explore the different sections to learn more about my projects, certificates, skills, and education.

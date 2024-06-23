@@ -629,3 +629,12 @@ button:focus {
 .banner_area .banner_inner .banner_content .page_link a:last-child:before {
     display: none;
 }
+
+.suku {
+    color: #854fee;
+}
+
+.inersuku {
+    border: #854fee;
+    border-radius: 3px;
+}

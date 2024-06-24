@@ -64,7 +64,7 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 - Open a pull request.
 - Wait for response or Merge.
 ## Usage
-- Visit http://localhost:3000 in your browser to view the website locally.
+- Use Vs code live server
 - Explore the different sections to learn more about my projects, certificates, skills, and education.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

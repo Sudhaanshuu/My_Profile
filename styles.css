@@ -929,3 +929,136 @@ button:focus {
     background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
     color: white;
 }
+
+
+/* Footer */
+
+.footer {
+    padding-top: 1rem;
+    background-color: #151414;
+}
+
+.contact-box {
+    position: relative;
+}
+
+.contact-box__icon {
+    width: 2rem;
+    stroke: #7e00df;
+    padding-top: 0.5rem;
+}
+
+@media (min-width: 576px) {
+    .contact-box__icon {
+        width: 4rem;
+    }
+}
+
+.contact-box__info {
+    padding: 0.4rem;
+    font-weight: 600;
+}
+
+.contact-box__info--title {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    .contact-box__info--title {
+        font-size: 1.4rem;
+    }
+}
+
+.contact-box__info--subtitle {
+    font-size: 0.8rem;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .contact-box__info--subtitle {
+        font-size: 1rem;
+    }
+}
+
+.footer-sm a {
+    color: #fff;
+}
+
+.footer-sm a i {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+@media (min-width: 576px) {
+    .footer-sm a i {
+        font-size: 1.6rem;
+    }
+}
+
+.footer-sm a:hover {
+    color: #9926f0;
+}
+
+.campany-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+}
+
+.campany-list li {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+.campany-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.campany-list li a:hover {
+    color: #9926f0;
+}
+
+.footer-bottom {
+    background-color: #000;
+}
+
+.footer-bottom__copyright {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.footer-bottom__copyright a {
+    color: #dee2e6;
+    text-decoration: none;
+}
+
+.footer-bottom__copyright a:hover {
+    color: #9926f0;
+    text-decoration: underline;
+}
+
+
+/* Bottom to Top */
+
+.back-to-top {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 9999;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+}
+
+.back-to-top i {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -737,9 +737,47 @@ button:focus {
 
 #services .sub-title h1 {
     font-family: "Rubik", sans-serif;
+    font-weight: bolder;
 }
 
 .services-list div:hover {
     background: #7F00FF;
     transform: translateY(-10px);
+}
+
+.about_area {
+    position: relative;
+}
+
+.about_area .main_title {
+    margin-bottom: 0px;
+}
+
+.about_area .main_title p {
+    margin-bottom: 20px;
+}
+
+.about_area .primary_btn {
+    margin-top: 20px;
+}
+
+.about_area .about_img {
+    position: relative;
+    right: 250px;
+}
+
+@media (max-width: 1480px) {
+    .about_area .about_img {
+        right: 0;
+    }
+    .about_area .about_img img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .about_area .about_img {
+        display: none;
+    }
 }

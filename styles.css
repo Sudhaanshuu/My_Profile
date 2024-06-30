@@ -786,7 +786,7 @@ button:focus {
 /* ----------PORTFOLIO---------- */
 
 #portfolio {
-    padding: 50px 0;
+    padding: 50px 175px;
 }
 
 .work-list {
@@ -864,4 +864,68 @@ button:focus {
     justify-content: center;
     margin-top: 20px;
     margin-left: 45%;
+}
+
+
+/* CONTENT */
+
+.get-started {
+    padding: 4rem 0;
+    background-color: white;
+}
+
+.get-started h1 {
+    margin-top: -9%;
+    margin-bottom: 2%;
+}
+
+.cta-info {
+    padding: 3rem;
+    margin: 1rem 0;
+    color: white;
+    /* Ensure text is readable on dark background */
+}
+
+.cta-info__list {
+    list-style-type: none;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.cta-info__list li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 600;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.form {
+    padding: 3rem;
+}
+
+.form button:hover {
+    background-color: #5900b3;
+}
+
+.form button i {
+    margin-left: 5px;
+}
+
+.form input,
+.form textarea {
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient {
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    color: white;
 }

@@ -185,22 +185,24 @@
                 <div class="col-12 col-lg-6 bg-white shadow p-3">
                     <div class="form w-100 pb-2">
                         <h4 class="display-3--title mb-5">Start the Conversation</h4>
-                        <form action="https://formspree.io/f/xblrjldv" class="row" method="POST">
+                        <form id="contactForm" class="row">
                             <div class="col-lg-6 col-md mb-3">
-                                <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                                <input type="text" placeholder="First Name" id="inputFirstName" name="first_name" class="shadow form-control form-control-lg" required>
                             </div>
                             <div class="col-lg-6 col-md mb-3">
-                                <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                                <input type="text" placeholder="Last Name" id="inputLastName" name="last_name" class="shadow form-control form-control-lg" required>
                             </div>
                             <div class="col-lg-12 mb-3">
-                                <input type="email" placeholder="Email Address" id="inputEmail" class="shadow form-control form-control-lg">
+                                <input type="email" placeholder="Email Address" id="inputEmail" name="email" class="shadow form-control form-control-lg" required>
                             </div>
                             <div class="col-lg-12 mb-3">
-                                <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                                <textarea name="message" placeholder="Message" id="message" rows="8" class="shadow form-control form-control-lg" required></textarea>
                             </div>
                             <div class="text-center d-grid mt-1">
-                                <button type="submit" class="primary_btn">Submit<i class="fas fa-paper-plane"></i>
-                                </button>
+                                <button type="submit" id="submitButton" class="primary_btn">Submit<i class="fas fa-paper-plane"></i></button>
+                            </div>
+                            <div id="successMessage" class="mt-3" style="display: none;">
+                                <p class="text-success">Message sent! You will get a reply soon.</p>
                             </div>
                         </form>
                     </div>
@@ -299,7 +301,7 @@
     <a href="#" class="shadow btn-primary rounded-circle back-to-top">
         <i class="fas fa-chevron-up"></i>
     </a>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
